@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Freak</title>
+    <link rel="stylesheet" href="./main_styles.css" />
+    <style>
+      body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("./photo.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+    <script type="text/javascript">
+      function preventBack() { window.history.forward(); }
+      setTimeout("preventBack()", 0);
+      window.onunload = function () { null };
+  </script>
+  </head>
+  <body>
+   <header class="header">
+    <!-- left box for logo -->
+    <div class="left">
+      <img src="./Ubisoft_logo.svg.png">
+       <div>Official Website</div>
+    </div>
+     <!-- mid box for navigation -->
+    <div class="mid">
+        <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- right box for buttons  -->
+    <div class="right">
+        <button class="btn" id="logout">Log Out</button>
+    </div> 
+   </header>
+   <script type="module" src="./index_script.js"></script>
+  </body>
+</html>
