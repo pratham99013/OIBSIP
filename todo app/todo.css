@@ -8,10 +8,11 @@ html{
     font-size: 10px;
 }
 body{
+    background-image: url("./photo-1518655048521-f130df041f66.jpeg");
     background-color: #000000;
 }
 
-h1{
+h1{background-color: black;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 5rem;
